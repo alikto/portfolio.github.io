@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Designer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Portfolio.</div>
+        <ul class="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#2d-designs">2D Designs</a></li>
+            <li><a href="#3d-designs">3D Designs</a></li>
+            <li><a href="#physical-projects">Physical Projects</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Visualizing the <span class="highlight">Unseen</span>.</h1>
+            <p class="hero-subtitle">Graphic Designer & 3D Artist based in the intersection of physical and digital spaces.</p>
+            <a href="#2d-designs" class="btn">Explore My Work</a>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </header>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p>Hello! I am a passionate graphic designer blending the boundaries between two-dimensional aesthetics, immersive three-dimensional worlds constructed in Blender, and hands-on physical projects. My work is driven by a deep curiosity for form, color, and texture.</p>
+                    <p>Whether I'm drafting a brand identity, modeling a surreal 3D environment, or crafting physical objects in real life, my goal is always to create memorable, evocative experiences.</p>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <span class="placeholder-text">Portrait / Abstract Graphic</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="2d-designs" class="section work-section alternate-bg">
+        <div class="container">
+            <h2 class="section-title">2D Designs</h2>
+            <p class="section-desc">Logos, typography, posters, and digital illustrations.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="item-overlay">
+                        <h3>Brand Identity</h3>
+                        <p>Visual Systems</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="item-overlay">
+                        <h3>Poster Series</h3>
+                        <p>Typography & Layout</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="item-overlay">
+                        <h3>Editorial</h3>
+                        <p>Print Design</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="item-overlay">
+                        <h3>Digital Art</h3>
+                        <p>Illustration</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="3d-designs" class="section work-section">
+        <div class="container">
+            <h2 class="section-title">3D Designs (Blender)</h2>
+            <p class="section-desc">Immersive environments, product renders, and abstract modeling.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item type-3d">
+                    <div class="item-overlay">
+                        <h3>Surreal Spaces</h3>
+                        <p>Environment Design</p>
+                    </div>
+                </div>
+                <div class="gallery-item type-3d">
+                    <div class="item-overlay">
+                        <h3>Product Visualization</h3>
+                        <p>Lighting & Texturing</p>
+                    </div>
+                </div>
+                <div class="gallery-item type-3d">
+                    <div class="item-overlay">
+                        <h3>Abstract Forms</h3>
+                        <p>Procedural Geometry</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="physical-projects" class="section work-section alternate-bg">
+        <div class="container">
+            <h2 class="section-title">Physical Projects</h2>
+            <p class="section-desc">Real-world creations, installations, and hands-on craftsmanship.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item type-physical">
+                    <div class="item-overlay">
+                        <h3>Sculpture</h3>
+                        <p>Mixed Media</p>
+                    </div>
+                </div>
+                <div class="gallery-item type-physical">
+                    <div class="item-overlay">
+                        <h3>Exhibition</h3>
+                        <p>Spatial Design</p>
+                    </div>
+                </div>
+                <div class="gallery-item type-physical">
+                    <div class="item-overlay">
+                        <h3>Bookbinding</h3>
+                        <p>Craft & Paper</p>
+                    </div>
+                </div>
+                <div class="gallery-item type-physical">
+                    <div class="item-overlay">
+                        <h3>Printmaking</h3>
+                        <p>Traditional Techniques</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h2>Let's build something beautiful.</h2>
+            <a href="mailto:hello@example.com" class="btn btn-primary">Get In Touch</a>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">Behance</a>
+                <a href="#">LinkedIn</a>
+            </div>
+            <p class="copyright">&copy; <span id="year"></span> Graphic Designer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
