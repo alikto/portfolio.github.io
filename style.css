@@ -410,6 +410,17 @@ ul {
     opacity: 1;
 }
 
+/* Always show overlay for physical projects */
+.type-physical .item-overlay {
+    bottom: 0;
+}
+
+.type-physical .item-overlay h3,
+.type-physical .item-overlay p {
+    transform: translateY(0);
+    opacity: 1;
+}
+
 /* Footer */
 footer {
     background-color: var(--color-slate);
